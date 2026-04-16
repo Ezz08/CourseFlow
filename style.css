@@ -31,3 +31,29 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    nav {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+        display: block;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
